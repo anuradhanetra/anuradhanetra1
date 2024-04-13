@@ -1,0 +1,261 @@
+
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+  
+/* fix blank or flashing item$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left'></i>",
+    "<i class='fa fa-caret-right'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+})s on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+    .page-top{
+        color: rgb(183, 200, 212); 
+    }
+    .brands{
+        word-spacing: 1rem;
+    }
+    .navbar{
+    background-color: rgb(183, 200, 212); 
+      
+    }
+    .navbar-nav{
+        font-size: 13px;
+        margin-left: 100px;
+    }
+    .nav-item{
+        margin-right:4px;
+    }
+    .button1{
+        background-color: rgb(45, 45, 209);
+        width: 180px;
+        height: 30px;
+        border-radius:50px ;
+        color: #fff;
+        font-size: 13px;
+        margin-left: 25px;
+        padding: 0px;
+        
+    }
+    .carousel-caption {
+      bottom: 15rem;
+      left: 30px;
+      text-align: left;
+    }
+    .mega-offer{
+      font-size: 14px;
+    }
+    .carousel-button{
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .coloum2{
+      margin-left: -25px;
+    }
+    .pharmacy{
+      color: rgb(3, 177, 3);
+    }
+    .offers{
+    background-color: rgb(183, 200, 212);
+    }
+    .offer{
+      font-size: 14px;
+    }
+    .offer-percent{
+      color:rgb(45, 45, 209) ;
+    }
+    .location{
+      background-color: rgb(191, 248, 188);
+    }
+    .nearest{
+      font-size: 14px;
+    }
+    .order-button{
+      border: 1px solid #000;
+      border-radius:20px ;
+      font-size: 14px;
+    }
+    .search-button{
+      border: 1px solid #000;
+      border-radius:20px ;
+      font-size: 14px;
+    }
+    .right-baby-image{
+        width: 320px;
+        height: 500px;
+        margin-left: -25px;
+    }
+    .bottom {
+            position:absolute;
+            top: 200px;
+            right: 120px;
+            
+    }
+    .shop-offers{
+      font-size: 12px;
+    }
+    .right-order-button{
+      border: 1px solid #fff;
+      border-radius:20px ;
+      font-size: 14px;
+    }
+    .product-range{
+      font-size: 14px;
+    }
+    .our-product-range{
+      padding-left: 200px;
+    }
+    .whatsapp-icon{
+      width: 100px;
+    }
+    .imgage-background{
+      background-color: rgb(240, 234, 225);
+    }
+    .navigation-pills{
+      color: rgb(140, 145, 140);
+    }
+    .navigation-pills:hover{
+      color: rgb(3, 95, 3);
+      border-bottom:solid 1px rgb(3, 95, 3);
+      border-radius: 0px;
+    }
+    #baby-care{
+      color: rgb(3, 95, 3);
+      font-size: 10px;
+      margin-top: 1rem;
+    }
+    .baby-care-discription{
+      font-size: 12px;
+    }
+    .view-button{
+      background-color: transparent;
+      border:solid 1px rgb(128, 125, 125);
+      border-radius: 20px;
+      color: rgb(38, 11, 192);
+      padding: 10px 35px;
+    }
+    .bgimage{
+      background-image: url(./asset/img/young-woman-pharmacist-pharmacy.png);
+     width:100%;
+    height: 600px;
+    margin-top:auto;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif
+       }
+       .agency{
+           margin-top: 160px;
+       }
+       .about-us{
+        background-image: linear-gradient(to bottom, rgb(10, 83, 192) 10%,rgb(9, 134, 172) 51%,rgb(13, 165, 89) 100%) ;
+        
+       }
+       .view-more-button{
+      background-color: transparent;
+      border:solid 2px rgb(245, 242, 242);
+      border-radius: 20px;
+      color: rgb(247, 246, 250);
+      padding: 10px 35px;
+    }
+    .image-text-section{
+      background-color: rgb(235, 235, 224);
+      width: 100%;
+      height: 700px;
+    }
+    .pharmasict-serving-customer{
+      padding-top: 100px;
+    }
+    .background-color-coloum{
+      background-color: rgb(242, 244, 245);
+      margin-top: 15px;
+      height: 100px;
+      width: 269px;
+    }
+    .right-icon-txt{
+      float: right;
+      font-size: 12px;
+      margin-top: 40px;
+      
+    }
+    .home-demo .item {
+    background: #f7f5f5;
+    border-bottom:solid 10px ;
+    border-color:linear-gradient(to bottom, rgb(10, 83, 192) 10px,rgb(9, 134, 172) 10px,rgb(13, 165, 89) 10px) ;
+         
+   }
+   .home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+   }
+   .Image-32{
+    margin-top: 30px;
+   }
+   .Image-20{
+    margin-top: 20px;
+    margin-bottom: -10px;
+   }
+   .owl-carousel-baby-care{
+    color: rgb(4, 150, 4);
+    font-size: 10px;
+    text-align: left;
+    margin-left: 5px;
+   }
+   .owl-carousel-offer{
+    text-align: left;
+    font-size: 14px;
+    margin-top: -16px;
+   }
+   .home-demo1 .item{
+    background: #f7f5f5;
+   }
